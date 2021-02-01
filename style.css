@@ -1,0 +1,72 @@
+body{
+  /* immagine di background e l'immagine copre tutto il blocco */
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+header{
+  /* metto il colore verde per il testo nell'header e allineo il testo centralmente */
+  color: #00FF00;
+  text-align: center;
+}
+
+section{
+  /* nella sezione con i bottoni metto lo sfondo verde, allineo il testo al centro e aumento padding ossia distanza tra il bordo della sezione e il suo contenuto */
+  background-color: #00FF00;
+  text-align: center;
+  padding: 15px;
+}
+
+main{
+  /* nella parte principale imposto il testo di colore bianco */
+  color: white;
+}
+
+main h2{
+  /* gli h2 con antenato main saranno coinvolti, li rendo inline così che la checkbox risulti sulla stessa riga dell'h2 */
+  display: inline-block;
+}
+
+div > p{
+  /* i p con antenato div avranno margine superiore e inferiore di 5px */
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+div > h2{
+  /* gli h2 con antenato div avranno margine inferiore di 5 px */
+  margin-bottom: 5px;
+}
+
+.container{
+  /* questa sezione riguarda il div con classe container; gli cambio il colore di background rendendono nero ma anche trasparente; gli arrotondo gli spigoli; gli cambio padding width e margin */
+  background-color:rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 60px;
+  width: 800px;
+  margin: auto;
+}
+
+#primo{
+  /* div con id primo; utilizzato per il livello di carica del primo mezzo*/
+  background-color: orange;
+  border-radius: 5px;
+  width: 250px;
+  padding: 10px;
+}
+
+#secondo{
+  /* div con id secondo; utilizzato per il livello di carica del secondo mezzo*/
+  background-color: green;
+  border-radius: 5px;
+  width: 450px;
+  padding: 10px;
+}
+
+#terzo{
+  /* div con id terzo; utilizzato per il livello di carica del terzo mezzo*/
+  background-color: red;
+  border-radius: 5px;
+  width: 75px;
+  padding: 10px;
+}
